@@ -7,7 +7,7 @@
 
 resources:
   - name: Arm AI Portal MCP Server
-    url: https://mcp.api.devplatform.arm.com/ai-portal
+    url: https://github.com/Arm-Debug/ai-portal-mcp
     category: mcp-servers
     when_to_use: >-
       Provides hosted access to the Arm AI Portal's catalogue of AI models optimized
