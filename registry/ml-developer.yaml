@@ -7,7 +7,7 @@
 
 resources:
   - name: Arm AI Portal MCP Server
-    url: https://learn.arm.com/learning-paths/servers-and-cloud-computing/ai-portal-mcp/
+    url: https://mcp.api.devplatform.arm.com/ai-portal
     category: mcp-servers
     when_to_use: >-
       Provides access through a remotely hosted MCP server to the Arm AI Portal's catalogue of AI models optimized
