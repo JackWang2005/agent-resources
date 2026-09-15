@@ -37,7 +37,7 @@ contexts:
     description: >-
       Training or deploying machine-learning workloads on Arm.
     file: registry/ml-developer.yaml
-    count: 1
+    count: 2
 
   - key: embedded-development
     title: Embedded development

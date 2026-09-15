@@ -6,6 +6,21 @@
 # too (CI checks). See ../README.md for the entry format and rules.
 
 resources:
+  - name: Arm AI Portal MCP Server
+    url: https://mcp.api.devplatform.arm.com/ai-portal
+    category: mcp-servers
+    when_to_use: >-
+      Provides hosted access to the Arm AI Portal's catalogue of AI models optimized
+      for specific hardware, detailed model metadata, related documentation and code
+      examples, and deployment resources. Use it when choosing or deploying an AI
+      model for Arm hardware and you need grounded model and implementation guidance.
+    example_use_case: >-
+      A developer needs an image-classification model for an Arm-based device but does
+      not know which catalogue options or deployment instructions apply. The agent uses
+      the AI Portal MCP Server to find candidate models, inspect the selected model's
+      metadata, and locate relevant documentation and deployment resources, giving the
+      developer a supported model and a concrete path to run it on the target hardware.
+
   - name: Arm Performix
     url: https://developer.arm.com/servers-and-cloud-computing/arm-performix
     category: profiling-optimization
