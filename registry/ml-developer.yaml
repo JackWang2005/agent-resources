@@ -16,7 +16,7 @@ resources:
       model for Arm hardware and you need model selection and deployment guidance.
     example_use_case: >-
       A developer needs an image-classification model for an Arm-based device but does
-      not know which catalogue options or deployment instructions apply. The agent uses
+      not know which model to choose or how to deploy to the target hardware. The agent uses
       the AI Portal MCP Server to find candidate models, inspect the selected model's
       metadata, and locate relevant documentation and deployment resources, giving the
       developer a supported model and a concrete path to run it on the target hardware.
