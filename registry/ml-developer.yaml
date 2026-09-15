@@ -13,7 +13,7 @@ resources:
       Provides access through a remotely hosted MCP server to the Arm AI Portal's catalogue of AI models optimized
       for specific hardware, detailed model metadata, related documentation and code
       examples, and deployment resources. Use it when choosing or deploying an AI
-      model for Arm hardware and you need grounded model and implementation guidance.
+      model for Arm hardware and you need model selection and deployment guidance.
     example_use_case: >-
       A developer needs an image-classification model for an Arm-based device but does
       not know which catalogue options or deployment instructions apply. The agent uses
